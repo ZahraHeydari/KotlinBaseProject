@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="font_style_normal" parent="regular_text_form">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="regular_text_form">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/atlantic</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+
+</resources>
